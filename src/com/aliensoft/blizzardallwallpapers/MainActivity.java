@@ -6,6 +6,9 @@ import java.util.List;
 import com.aliensoft.blizzardallwallpapers.app.AppController;
 import com.aliensoft.blizzardallwallpapers.helper.NavDrawerListAdapter;
 import com.aliensoft.blizzardallwallpapers.picasa.model.Category;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.parse.Parse;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -48,10 +51,14 @@ public class MainActivity extends Activity {
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mDrawerList = (ListView) findViewById(R.id.list_slidermenu);
 
+		AdView mAdView = (AdView) findViewById(R.id.adView);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		mAdView.loadAd(adRequest);
 		navDrawerItems = new ArrayList<NavDrawerItem>();
 
 		// Getting the albums from shared preferences
-		albumsList = AppController.getInstance().getPrefManger().getCategories();
+		albumsList = AppController.getInstance().getPrefManger()
+				.getCategories();
 
 		// Insert "Recently Added" in navigation drawer first position
 		Category recentAlbum = new Category(null,

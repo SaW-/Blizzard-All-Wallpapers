@@ -253,7 +253,7 @@ public class FullScreenViewActivity extends Activity implements OnClickListener 
 		switch (v.getId()) {
 		// button Download Wallpaper tapped
 		case R.id.llDownloadWallpaper:
-			utils.saveImageToSDCard(bitmap);
+			utils.saveImageToSDCard(bitmap,this);
 			break;
 		// button Set As Wallpaper tapped
 		case R.id.llSetWallpaper:

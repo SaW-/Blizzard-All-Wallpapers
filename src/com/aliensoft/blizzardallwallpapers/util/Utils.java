@@ -10,8 +10,10 @@ import com.aliensoft.blizzardallwallpapers.R;
 
 import android.app.WallpaperManager;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Point;
+import android.net.Uri;
 import android.os.Environment;
 import android.util.Log;
 import android.view.Display;
@@ -51,7 +53,7 @@ public class Utils {
 		return columnWidth;
 	}
 
-	public void saveImageToSDCard(Bitmap bitmap) {
+	public void saveImageToSDCard(Bitmap bitmap,Context ctx) {
 		File myDir = new File(
 				Environment
 						.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
@@ -70,6 +72,11 @@ public class Utils {
 			bitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
 			out.flush();
 			out.close();
+			Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+		    Uri contentUri = Uri.fromFile(file);
+		    mediaScanIntent.setData(contentUri);
+		    
+		    ctx.sendBroadcast(mediaScanIntent);
 			Toast.makeText(
 					_context,
 					_context.getString(R.string.toast_saved).replace("#",
