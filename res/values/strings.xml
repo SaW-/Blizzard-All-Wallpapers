@@ -19,6 +19,6 @@
     <string name="lbl_google_username">Google username</string>
     <string name="lbl_no_grid_columns">Number of grid columns</string>
     <string name="lbl_gallery_name">Gallery directory name</string>
-    <string name="lbl_btn_save">Save</string>
+    <string name="lbl_btn_save">حفظ</string>
 
 </resources>

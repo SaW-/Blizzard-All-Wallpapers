@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,12 +22,12 @@ import android.widget.GridView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.aliensoft.blizzardallwallpapers.app.AppConst;
-import com.aliensoft.blizzardallwallpapers.app.AppController;
-import com.aliensoft.blizzardallwallpapers.helper.GridViewAdapter;
-import com.aliensoft.blizzardallwallpapers.picasa.model.Wallpaper;
-import com.aliensoft.blizzardallwallpapers.util.PrefManager;
-import com.aliensoft.blizzardallwallpapers.util.Utils;
+import com.aliensoft.allwallpapers.app.AppConst;
+import com.aliensoft.allwallpapers.app.AppController;
+import com.aliensoft.allwallpapers.helper.GridViewAdapter;
+import com.aliensoft.allwallpapers.picasa.model.Wallpaper;
+import com.aliensoft.allwallpapers.util.PrefManager;
+import com.aliensoft.allwallpapers.util.Utils;
 import com.android.volley.Request.Method;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;

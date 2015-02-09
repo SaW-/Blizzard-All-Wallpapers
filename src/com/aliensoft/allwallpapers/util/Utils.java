@@ -1,12 +1,10 @@
-package com.aliensoft.blizzardallwallpapers.util;
+package com.aliensoft.allwallpapers.util;
 
-import com.aliensoft.blizzardallwallpapers.R;
+import com.aliensoft.allwallpapers.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Random;
-
-import com.aliensoft.blizzardallwallpapers.R;
 
 import android.app.WallpaperManager;
 import android.content.Context;

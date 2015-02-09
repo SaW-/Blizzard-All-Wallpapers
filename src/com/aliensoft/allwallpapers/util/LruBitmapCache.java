@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers.util;
+package com.aliensoft.allwallpapers.util;
 
 import com.android.volley.toolbox.ImageLoader.ImageCache;
 

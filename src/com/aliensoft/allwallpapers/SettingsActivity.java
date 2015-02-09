@@ -1,7 +1,7 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
-import com.aliensoft.blizzardallwallpapers.R;
-import com.aliensoft.blizzardallwallpapers.util.PrefManager;
+import com.aliensoft.allwallpapers.R;
+import com.aliensoft.allwallpapers.util.PrefManager;
 
 import android.app.Activity;
 import android.content.Intent;

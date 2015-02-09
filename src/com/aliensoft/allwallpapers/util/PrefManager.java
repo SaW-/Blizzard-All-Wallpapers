@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers.util;
+package com.aliensoft.allwallpapers.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,8 +11,9 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
-import com.aliensoft.blizzardallwallpapers.app.AppConst;
-import com.aliensoft.blizzardallwallpapers.picasa.model.Category;
+import com.aliensoft.allwallpapers.NavDrawerItem;
+import com.aliensoft.allwallpapers.app.AppConst;
+import com.aliensoft.allwallpapers.picasa.model.Category;
 import com.google.gson.Gson;
 
 public class PrefManager {
@@ -126,8 +127,19 @@ public class PrefManager {
 			Gson gson = new Gson();
 			Category[] albumArry = gson.fromJson(json, Category[].class);
 
+			
 			albums = Arrays.asList(albumArry);
-			albums = new ArrayList<Category>(albums);
+			
+			List<Category> temp = new ArrayList<Category>();
+			for (int i = 0; i < albums.size(); i++) {
+				
+				if(!albums.get(i).title.equals("Profile Photos")){
+					temp.add(albums.get(i));
+				}
+			}
+			
+			
+			albums = new ArrayList<Category>(temp);
 		} else
 			return null;
 

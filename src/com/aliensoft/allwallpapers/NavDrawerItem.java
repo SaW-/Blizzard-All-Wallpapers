@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
 public class NavDrawerItem {
 

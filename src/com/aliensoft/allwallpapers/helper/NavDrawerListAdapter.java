@@ -1,9 +1,9 @@
-package com.aliensoft.blizzardallwallpapers.helper;
+package com.aliensoft.allwallpapers.helper;
 
 import java.util.ArrayList;
 
-import com.aliensoft.blizzardallwallpapers.NavDrawerItem;
-import com.aliensoft.blizzardallwallpapers.R;
+import com.aliensoft.allwallpapers.NavDrawerItem;
+import com.aliensoft.allwallpapers.R;
 
 import android.app.Activity;
 import android.content.Context;

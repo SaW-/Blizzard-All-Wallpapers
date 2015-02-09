@@ -1,10 +1,10 @@
-package com.aliensoft.blizzardallwallpapers.app;
+package com.aliensoft.allwallpapers.app;
 
 import android.app.Application;
 import android.text.TextUtils;
 
-import com.aliensoft.blizzardallwallpapers.util.LruBitmapCache;
-import com.aliensoft.blizzardallwallpapers.util.PrefManager;
+import com.aliensoft.allwallpapers.util.LruBitmapCache;
+import com.aliensoft.allwallpapers.util.PrefManager;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;

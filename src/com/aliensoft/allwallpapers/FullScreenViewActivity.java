@@ -1,8 +1,8 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
-import com.aliensoft.blizzardallwallpapers.app.AppController;
-import com.aliensoft.blizzardallwallpapers.picasa.model.Wallpaper;
-import com.aliensoft.blizzardallwallpapers.util.Utils;
+import com.aliensoft.allwallpapers.app.AppController;
+import com.aliensoft.allwallpapers.picasa.model.Wallpaper;
+import com.aliensoft.allwallpapers.util.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

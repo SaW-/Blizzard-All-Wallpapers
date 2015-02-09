@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,9 @@ import android.util.Log;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.aliensoft.blizzardallwallpapers.app.AppConst;
-import com.aliensoft.blizzardallwallpapers.app.AppController;
-import com.aliensoft.blizzardallwallpapers.picasa.model.Category;
+import com.aliensoft.allwallpapers.app.AppConst;
+import com.aliensoft.allwallpapers.app.AppController;
+import com.aliensoft.allwallpapers.picasa.model.Category;
 import com.android.volley.Request.Method;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;

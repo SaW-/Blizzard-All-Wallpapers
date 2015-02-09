@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aliensoft.blizzardallwallpapers"
+    package="com.aliensoft.allwallpapers"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -25,17 +25,17 @@
     <uses-permission android:name="com.aliensoft.blizzardallwallpapers.permission.C2D_MESSAGE" />
 
     <application
-        android:name="com.aliensoft.blizzardallwallpapers.app.AppController"
+        android:name="com.aliensoft.allwallpapers.app.AppController"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/FreeWallTheme" >
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="6587000" />
+            android:value="5077000" />
 
         <activity
-            android:name="com.aliensoft.blizzardallwallpapers.SplashActivity"
+            android:name="com.aliensoft.allwallpapers.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -45,15 +45,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.aliensoft.blizzardallwallpapers.MainActivity"
+            android:name="com.aliensoft.allwallpapers.MainActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.aliensoft.blizzardallwallpapers.FullScreenViewActivity"
+            android:name="com.aliensoft.allwallpapers.FullScreenViewActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.aliensoft.blizzardallwallpapers.SettingsActivity"
+            android:name="com.aliensoft.allwallpapers.SettingsActivity"
             android:label="@string/action_settings"
             android:screenOrientation="portrait" >
         </activity>
@@ -67,7 +67,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.aliensoft.blizzardallwallpapers.Receiver"
+            android:name="com.aliensoft.allwallpapers.Receiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />

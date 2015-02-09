@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
 import android.content.Context;
 import android.content.Intent;

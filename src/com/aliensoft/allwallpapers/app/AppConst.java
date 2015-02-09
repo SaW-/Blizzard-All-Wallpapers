@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers.app;
+package com.aliensoft.allwallpapers.app;
 
 
 public class AppConst {
@@ -11,7 +11,7 @@ public class AppConst {
 	public static final int GRID_PADDING = 4; // in dp
 
 	// Gallery directory name to save wallpapers
-	public static final String SDCARD_DIR_NAME = "Blizzard All Wallpapers";
+	public static final String SDCARD_DIR_NAME = "all-wallpapers-HD";
 
 	// Picasa/Google web album username
 	public static final String PICASA_USER = "107642715675309156016";

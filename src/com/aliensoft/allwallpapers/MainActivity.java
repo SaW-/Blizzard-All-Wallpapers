@@ -1,11 +1,11 @@
-package com.aliensoft.blizzardallwallpapers;
+package com.aliensoft.allwallpapers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.aliensoft.blizzardallwallpapers.app.AppController;
-import com.aliensoft.blizzardallwallpapers.helper.NavDrawerListAdapter;
-import com.aliensoft.blizzardallwallpapers.picasa.model.Category;
+import com.aliensoft.allwallpapers.app.AppController;
+import com.aliensoft.allwallpapers.helper.NavDrawerListAdapter;
+import com.aliensoft.allwallpapers.picasa.model.Category;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.parse.Parse;
@@ -26,6 +26,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
@@ -40,7 +41,6 @@ public class MainActivity extends Activity {
 	private ArrayList<NavDrawerItem> navDrawerItems;
 	private NavDrawerListAdapter adapter;
 
-	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -68,7 +68,9 @@ public class MainActivity extends Activity {
 
 		// Loop through albums in add them to navigation drawer adapter
 		for (Category a : albumsList) {
-			navDrawerItems.add(new NavDrawerItem(a.getId(), a.getTitle()));
+			if(!a.getTitle().equals("Profile Photos")){
+				navDrawerItems.add(new NavDrawerItem(a.getId(), a.getTitle()));
+			}
 		}
 
 		mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
@@ -105,6 +107,8 @@ public class MainActivity extends Activity {
 			// on first time display view for first nav item
 			displayView(0);
 		}
+		mDrawerList.bringToFront();
+		mDrawerLayout.requestLayout();
 	}
 
 	/**

@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers.picasa.model;
+package com.aliensoft.allwallpapers.picasa.model;
 
 public class Category {
 	public String id, title;

@@ -1,4 +1,4 @@
-package com.aliensoft.blizzardallwallpapers.helper;
+package com.aliensoft.allwallpapers.helper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.aliensoft.blizzardallwallpapers.R;
-import com.aliensoft.blizzardallwallpapers.app.AppController;
-import com.aliensoft.blizzardallwallpapers.picasa.model.Wallpaper;
+import com.aliensoft.allwallpapers.R;
+import com.aliensoft.allwallpapers.app.AppController;
+import com.aliensoft.allwallpapers.picasa.model.Wallpaper;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
 
