@@ -1,11 +1,11 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.aliensoft.allwallpapers.app.AppController;
-import com.aliensoft.allwallpapers.helper.NavDrawerListAdapter;
-import com.aliensoft.allwallpapers.picasa.model.Category;
+import com.aliensoft.beautifulwallpapershd.app.AppController;
+import com.aliensoft.beautifulwallpapershd.helper.NavDrawerListAdapter;
+import com.aliensoft.beautifulwallpapershd.picasa.model.Category;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.parse.Parse;

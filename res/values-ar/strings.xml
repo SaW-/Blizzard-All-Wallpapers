@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">خلفيات جميلة HD</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="nav_drawer_recently_added">أضيفت مؤخرا</string>
+    <string name="toast_saved">حفظ  الخلفية فى #</string>
+    <string name="toast_saved_failed">آسف! فشل في حفظ خلفية</string>
+    <string name="toast_wallpaper_set">تم تحديث الخلفية</string>
+    <string name="toast_wallpaper_set_failed">آسف! غير قادر على تعيين  الخلغبة</string>
+    <string name="splash_error">غير قادر على تحميل خلفيات.</string>
+    <string name="set_wallpaper">تعيين الخلفية</string>
+    <string name="download_wallpaper">تحميل</string>
+    <string name="msg_unknown_error">آسف! حدث خطأ غير معروف.</string>
+    <string name="msg_wall_fetch_error">آسف! غير قادر على جلب الخلفية</string>
+    <string name="toast_enter_google_username">من فضلك ادخل اسم المستخدم</string>
+    <string name="toast_enter_valid_grid_columns">الرجاء إدخال رقم صالح من الأعمدة</string>
+    <string name="toast_enter_gallery_name">من فضلك ادخل اسم المعرض</string>
+    <string name="lbl_google_username">اسم المستخدم</string>
+    <string name="lbl_no_grid_columns">عدد الأعمدة</string>
+    <string name="lbl_gallery_name">اسم معرض</string>
+    <string name="lbl_btn_save">حفظ</string>
+
+</resources>

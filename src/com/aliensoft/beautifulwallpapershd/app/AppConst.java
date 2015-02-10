@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers.app;
+package com.aliensoft.beautifulwallpapershd.app;
 
 
 public class AppConst {
@@ -11,10 +11,10 @@ public class AppConst {
 	public static final int GRID_PADDING = 4; // in dp
 
 	// Gallery directory name to save wallpapers
-	public static final String SDCARD_DIR_NAME = "all-wallpapers-HD";
+	public static final String SDCARD_DIR_NAME = "Beautiful-Wallpapers-HD";
 
 	// Picasa/Google web album username
-	public static final String PICASA_USER = "107642715675309156016";
+	public static final String PICASA_USER = "112566411524852819661";
 
 	// Public albums list url
 	public static final String URL_PICASA_ALBUMS = "https://picasaweb.google.com/data/feed/api/user/_PICASA_USER_?kind=album&alt=json";

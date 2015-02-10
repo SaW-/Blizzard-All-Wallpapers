@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Blizzard All Wallpapers</string>
+    <string name="app_name">Beautiful Wallpapers HD</string>
     <string name="action_settings">Settings</string>
     <string name="nav_drawer_recently_added">Recently Added</string>
     <string name="toast_saved">Wallpapaer saved to #</string>
@@ -19,6 +19,6 @@
     <string name="lbl_google_username">Google username</string>
     <string name="lbl_no_grid_columns">Number of grid columns</string>
     <string name="lbl_gallery_name">Gallery directory name</string>
-    <string name="lbl_btn_save">حفظ</string>
+    <string name="lbl_btn_save">Save</string>
 
 </resources>

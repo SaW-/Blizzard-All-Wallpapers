@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,12 +22,12 @@ import android.widget.GridView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.aliensoft.allwallpapers.app.AppConst;
-import com.aliensoft.allwallpapers.app.AppController;
-import com.aliensoft.allwallpapers.helper.GridViewAdapter;
-import com.aliensoft.allwallpapers.picasa.model.Wallpaper;
-import com.aliensoft.allwallpapers.util.PrefManager;
-import com.aliensoft.allwallpapers.util.Utils;
+import com.aliensoft.beautifulwallpapershd.app.AppConst;
+import com.aliensoft.beautifulwallpapershd.app.AppController;
+import com.aliensoft.beautifulwallpapershd.helper.GridViewAdapter;
+import com.aliensoft.beautifulwallpapershd.picasa.model.Wallpaper;
+import com.aliensoft.beautifulwallpapershd.util.PrefManager;
+import com.aliensoft.beautifulwallpapershd.util.Utils;
 import com.android.volley.Request.Method;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;

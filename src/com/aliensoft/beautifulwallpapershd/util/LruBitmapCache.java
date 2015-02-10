@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers.util;
+package com.aliensoft.beautifulwallpapershd.util;
 
 import com.android.volley.toolbox.ImageLoader.ImageCache;
 

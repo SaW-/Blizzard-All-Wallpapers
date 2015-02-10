@@ -1,6 +1,6 @@
-package com.aliensoft.allwallpapers.util;
+package com.aliensoft.beautifulwallpapershd.util;
 
-import com.aliensoft.allwallpapers.R;
+import com.aliensoft.beautifulwallpapershd.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

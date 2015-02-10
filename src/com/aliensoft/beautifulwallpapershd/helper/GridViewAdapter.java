@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers.helper;
+package com.aliensoft.beautifulwallpapershd.helper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.aliensoft.allwallpapers.R;
-import com.aliensoft.allwallpapers.app.AppController;
-import com.aliensoft.allwallpapers.picasa.model.Wallpaper;
+import com.aliensoft.beautifulwallpapershd.R;
+import com.aliensoft.beautifulwallpapershd.app.AppController;
+import com.aliensoft.beautifulwallpapershd.picasa.model.Wallpaper;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
 

@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers.picasa.model;
+package com.aliensoft.beautifulwallpapershd.picasa.model;
 
 import java.io.Serializable;
 

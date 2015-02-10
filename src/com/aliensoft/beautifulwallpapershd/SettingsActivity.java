@@ -1,7 +1,7 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
-import com.aliensoft.allwallpapers.R;
-import com.aliensoft.allwallpapers.util.PrefManager;
+import com.aliensoft.beautifulwallpapershd.R;
+import com.aliensoft.beautifulwallpapershd.util.PrefManager;
 
 import android.app.Activity;
 import android.content.Intent;

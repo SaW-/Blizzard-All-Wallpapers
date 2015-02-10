@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
 import com.parse.Parse;
 
@@ -15,8 +15,8 @@ public class MyService extends Service {
 
 	@Override
 	public void onCreate() {
-		Parse.initialize(this, "vzLCqJpOd64uDh7hCYJLY1Exk0JS77M9VYmHfbGt",
-				"xaxY4TVn2sJqQYdCuYTP3FqzOt1h7eJJHVjnrIAO");
+		Parse.initialize(this, "dDMiMWX0vzu8mxmPgHKBEmdftfwuGLGfXSJw5aax",
+				"9VtCRyWQmucD4gBIyAyC4zQUWQL9Ngi4Fmh3biLQ");
 	}
 
 	@Override

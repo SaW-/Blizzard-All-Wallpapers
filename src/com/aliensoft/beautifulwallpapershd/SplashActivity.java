@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,9 @@ import android.util.Log;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.aliensoft.allwallpapers.app.AppConst;
-import com.aliensoft.allwallpapers.app.AppController;
-import com.aliensoft.allwallpapers.picasa.model.Category;
+import com.aliensoft.beautifulwallpapershd.app.AppConst;
+import com.aliensoft.beautifulwallpapershd.app.AppController;
+import com.aliensoft.beautifulwallpapershd.picasa.model.Category;
 import com.android.volley.Request.Method;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;

@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers.util;
+package com.aliensoft.beautifulwallpapershd.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,9 +11,9 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
-import com.aliensoft.allwallpapers.NavDrawerItem;
-import com.aliensoft.allwallpapers.app.AppConst;
-import com.aliensoft.allwallpapers.picasa.model.Category;
+import com.aliensoft.beautifulwallpapershd.NavDrawerItem;
+import com.aliensoft.beautifulwallpapershd.app.AppConst;
+import com.aliensoft.beautifulwallpapershd.picasa.model.Category;
 import com.google.gson.Gson;
 
 public class PrefManager {

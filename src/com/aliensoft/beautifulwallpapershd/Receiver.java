@@ -1,4 +1,4 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
 import android.content.Context;
 import android.content.Intent;

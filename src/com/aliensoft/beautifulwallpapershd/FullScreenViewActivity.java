@@ -1,8 +1,8 @@
-package com.aliensoft.allwallpapers;
+package com.aliensoft.beautifulwallpapershd;
 
-import com.aliensoft.allwallpapers.app.AppController;
-import com.aliensoft.allwallpapers.picasa.model.Wallpaper;
-import com.aliensoft.allwallpapers.util.Utils;
+import com.aliensoft.beautifulwallpapershd.app.AppController;
+import com.aliensoft.beautifulwallpapershd.picasa.model.Wallpaper;
+import com.aliensoft.beautifulwallpapershd.util.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

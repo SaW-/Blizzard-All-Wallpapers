@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aliensoft.allwallpapers"
+    package="com.aliensoft.beautifulwallpapershd"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,13 +19,13 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.aliensoft.blizzardallwallpapers.permission.C2D_MESSAGE"
+        android:name="com.aliensoft.beautifulwallpapershd.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.aliensoft.blizzardallwallpapers.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.aliensoft.beautifulwallpapershd.permission.C2D_MESSAGE" />
 
     <application
-        android:name="com.aliensoft.allwallpapers.app.AppController"
+        android:name="com.aliensoft.beautifulwallpapershd.app.AppController"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -35,7 +35,7 @@
             android:value="5077000" />
 
         <activity
-            android:name="com.aliensoft.allwallpapers.SplashActivity"
+            android:name="com.aliensoft.beautifulwallpapershd.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -45,15 +45,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.aliensoft.allwallpapers.MainActivity"
+            android:name="com.aliensoft.beautifulwallpapershd.MainActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.aliensoft.allwallpapers.FullScreenViewActivity"
+            android:name="com.aliensoft.beautifulwallpapershd.FullScreenViewActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.aliensoft.allwallpapers.SettingsActivity"
+            android:name="com.aliensoft.beautifulwallpapershd.SettingsActivity"
             android:label="@string/action_settings"
             android:screenOrientation="portrait" >
         </activity>
@@ -67,7 +67,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.aliensoft.allwallpapers.Receiver"
+            android:name="com.aliensoft.beautifulwallpapershd.Receiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
@@ -83,7 +83,7 @@
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
                 <!-- IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
-                <category android:name="com.aliensoft.blizzardallwallpapers" />
+                <category android:name="com.aliensoft.beautifulwallpapershd" />
             </intent-filter>
         </receiver>
 

@@ -1,9 +1,9 @@
-package com.aliensoft.allwallpapers.helper;
+package com.aliensoft.beautifulwallpapershd.helper;
 
 import java.util.ArrayList;
 
-import com.aliensoft.allwallpapers.NavDrawerItem;
-import com.aliensoft.allwallpapers.R;
+import com.aliensoft.beautifulwallpapershd.NavDrawerItem;
+import com.aliensoft.beautifulwallpapershd.R;
 
 import android.app.Activity;
 import android.content.Context;
